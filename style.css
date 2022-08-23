@@ -1,0 +1,130 @@
+*,*::before,::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 100px 0;
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(pattern-background-desktop.svg);
+    background-repeat:repeat-x;
+    background-size:contain;
+}
+
+.card{
+    width:450px;
+    background-color: white;
+    box-shadow: 20px, 5px, 5px, 20px #333;
+    margin:auto;
+    padding-bottom: 15px;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 20px 20px 10px hsl(223, 45%, 79%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
+
+.hero-Image{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+h1{
+    width: 70%;
+    max-width: 550px;
+    margin: auto;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    padding: .5rem;
+}
+
+p{
+    width: 80%;
+    max-width: 350px;
+    margin:20px auto;
+    line-height: 30px;
+    color: hsl(226, 14%, 60%);
+}
+ul{
+    display: inline-block;
+    width: 80%;
+    max-width: 500px;
+    background-color: rgb(246, 249, 252);
+    border-radius: 20px;
+    padding: .9rem;
+    margin: 10px auto;
+    font-family:'Red Hat Display', sans-serif;
+}
+
+.icon-music{
+    float: left;
+    margin: 15px 0;
+}
+
+h4{
+    float: left;
+    margin-left: 25px;
+    font-weight: 900;
+    color:hsl(223, 47%, 23%);
+}
+
+.subscript{
+    color:hsl(223, 45%, 79%) ;
+}
+
+.link{
+    font-weight: 700;
+    margin-top: 25px;
+    float: right;
+}
+
+.btn1{
+    border: 2px solid rgb(73, 73, 6);
+    width: 80%;
+    margin:20px 50px;
+    color:rgba(253, 246, 246, 0.918);
+    display:flex;
+    text-decoration: none;
+    font-weight: 900;
+    place-content: center;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 20px 10px 0px hsl(223, 45%, 79%);
+    background-color: hsl(245, 75%, 52%);
+}
+
+.btn2{
+    text-decoration: none;
+    padding:0.5rem;
+    margin: 40px  auto;
+    width:30%;
+    display: flex;
+    place-content: center;
+    color: hsl(223, 45%, 79%);
+    font-weight: 900;
+}
+
+.attribution{
+   margin:auto;
+   margin-top: 10px;
+   text-align: center;
+   font-size: 16px;
+   font-family: 'Red Hat Display', sans-serif;
+   font-weight: 700;
+}
+ .link-4, .link-5{
+    text-decoration: none;
+ }
+.link:hover{
+    color:hsl(223, 45%, 79%);
+}
+.btn1:hover{
+    background-color: hsla(245, 57%, 67%, 0.973);
+    transition: 0.3s ease-in-out;
+}
+
+.btn2:hover{
+    color: hsl(226, 36%, 31%);
+    transition: 0.3s ease-in-out;
+}
