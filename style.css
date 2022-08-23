@@ -97,7 +97,7 @@ h4{
     text-decoration: none;
     padding:0.5rem;
     margin: 40px  auto;
-    width:30%;
+    width:200px;
     display: flex;
     place-content: center;
     color: hsl(223, 45%, 79%);
@@ -109,6 +109,7 @@ h4{
    margin-top: 10px;
    text-align: center;
    font-size: 16px;
+   max-width: 300px;
    font-family: 'Red Hat Display', sans-serif;
    font-weight: 700;
 }
@@ -126,4 +127,14 @@ h4{
 .btn2:hover{
     color: hsl(226, 36%, 31%);
     transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width:450px){
+    .card{
+        max-width: 340px;
+        font-size: 16px;
+    }
+    h1{
+        font-size: 25px;
+    }
 }
