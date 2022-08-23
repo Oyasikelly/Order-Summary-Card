@@ -4,8 +4,7 @@
 
 body{
     margin: 0;
-    padding: 50px auto;
-    place-content: center;
+    padding: 20px 0;
     font-family: 'Red Hat Display', sans-serif;
     background: url(pattern-background-desktop.svg);
     background-repeat:repeat-x;
@@ -16,9 +15,9 @@ body{
     width:450px;
     background-color: white;
     box-shadow: 20px, 5px, 5px, 20px #333;
-    margin:0 auto;
+    margin:auto;
     padding-bottom: 15px;
-    max-width: 450px;
+    max-width: 500px;
     text-align: center;
     border-radius: 20px;
     box-shadow: 10px 20px 20px 10px hsl(223, 45%, 79%);
@@ -109,7 +108,6 @@ h4{
    margin:auto;
    margin-top: 10px;
    text-align: center;
-   place-content: center;
    font-size: 16px;
    font-family: 'Red Hat Display', sans-serif;
    font-weight: 700;
