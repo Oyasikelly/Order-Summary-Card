@@ -4,7 +4,7 @@
 
 body{
     margin: 0;
-    padding: 20px 0;
+    padding: 100px 0;
     font-family: 'Red Hat Display', sans-serif;
     background: url(pattern-background-desktop.svg);
     background-repeat:repeat-x;
@@ -43,8 +43,9 @@ p{
     width: 80%;
     max-width: 350px;
     margin:20px auto;
-    line-height: 30px;
-    color: hsl(226, 14%, 60%);
+    line-height: 25px;
+    font-weight: 500;
+    color: hsl(222, 18%, 45%);
 }
 ul{
     display: inline-block;
@@ -57,6 +58,9 @@ ul{
     font-family:'Red Hat Display', sans-serif;
 }
 
+li{
+    list-style: none;
+}
 .icon-music{
     float: left;
     margin: 15px 0;
@@ -71,7 +75,8 @@ h2{
 }
 
 .subscript{
-    color:hsl(223, 45%, 79%) ;
+    color:hsl(222, 18%, 45%) ;
+    font-weight: 500;
 }
 
 .link{
@@ -101,7 +106,7 @@ h2{
     width:200px;
     display: flex;
     place-content: center;
-    color: hsl(223, 45%, 79%);
+    color: hsl(222, 18%, 45%);
     font-weight: 900;
 }
 
@@ -132,7 +137,7 @@ h2{
 
 @media screen and (max-width:450px){
     .card{
-        max-width: 340px;
+        max-width: 350px;
         font-size: 16px;
     }
     h1{
